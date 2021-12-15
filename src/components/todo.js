@@ -43,7 +43,7 @@ const Todo = () => {
         </ul>
         {list.length?
         (<div class="text-center">
-          <Button onClick={()=>dispatch(removeTodo())}>Check All</Button>
+          <Button onClick={()=>dispatch(removeTodo())}>All Done</Button>
         </div>):(<div></div>)}
       </div>
    
