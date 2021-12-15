@@ -19,6 +19,7 @@ const Todo = () => {
         <div><InputGroup className="mb-3">
     <FormControl
       placeholder="Add items..."
+      value={inputData}
       aria-describedby="basic-addon2"
       onChange={(event)=>{setInputData(event.target.value)}}
     />
